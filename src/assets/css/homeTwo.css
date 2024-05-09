@@ -252,3 +252,20 @@
     text-align: center;
     color: #767676;
 }
+
+.home-two-conclusion {
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.home-two-sevices-content {
+    font-family: Alagard;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 33.9px;
+    text-align: center;
+    color: #767676;
+    max-width: 836px;
+}

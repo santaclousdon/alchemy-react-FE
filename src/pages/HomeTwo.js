@@ -235,6 +235,16 @@ export default function HomeTwo() {
             <span>12 Month Vest with 3 month Cliff</span>
           </div>
         </div>
+        <div className="home-two-conclusion">
+          <div className="home-two-services-title">CONCLUSION</div>
+          <div className="home-two-sevices-content">
+            Alchemy sets the stage for decentralized autonomous organizations to
+            enter the spotlight on Runes Protocol. Providing an all in one suite
+            of tools permitting anyone with minimal experience to create their
+            very own trustless organization powered by Bitcoin and the Runes
+            Protocol.
+          </div>
+        </div>
       </div>
     </div>
   );
