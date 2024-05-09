@@ -4,11 +4,10 @@ import BigBox from "../components/BIgBox/BigBox";
 
 export default function HomeOne() {
   return (
-    <div className="home-one">
+    <div className="home-one-container">
       <Header
         header="ALCHEMY"
         subheader="Decentralized Autonomous Organizations On Runes Protocol"
-        imgURL=""
         activeState={0}
       >
         Decentralized Autonomous Organizations (DAO) are the cornerstone of

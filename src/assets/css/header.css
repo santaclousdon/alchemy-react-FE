@@ -12,6 +12,7 @@
     top: -48px;
     left: 0;
     width: 100%;
+    z-index: 10;
 }
 
 .navbar-nav {
@@ -71,7 +72,6 @@
     margin-top: 202px;
     display: flex;
     flex-direction: column;
-    max-width: 754px;
 }
 
 .header-content-header {
@@ -87,11 +87,19 @@
 .header-content-subheader {
     margin-top: -3px;
     font-family: "Alagard";
-    font-size: 32px;
     font-weight: 500;
-    line-height: 34px;
     text-align: left;
     color: #191D16;
+}
+
+.homeHeaderSub {
+    font-size: 32px;
+    line-height: 34px;
+}
+
+.otherHeaderSub {
+    font-size: 48px;
+    line-height: 79.2px;
 }
 
 .header-content-content {
@@ -104,6 +112,29 @@
     color: #E8FBFC;
 }
 
-.haader-image {
+.homeHeaderContent {
+    max-width: 754px;
+}
+
+.otherHeaderContent {
+    max-width: 456px;
+}
+
+.header-image {
     position: absolute;
+}
+
+.staking-one {
+    right: 0;
+    top: -9px;
+}
+
+.staking-two {
+    right: 39px;
+    top: 69px;
+}
+
+.staking-three {
+    right: 26px;
+    top: 61px;
 }

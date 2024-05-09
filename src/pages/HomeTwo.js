@@ -4,11 +4,10 @@ import ToolBox from "../components/ToolBox/ToolBox";
 
 export default function HomeTwo() {
   return (
-    <div className="home-two">
+    <div className="home-two-container">
       <Header
         header="ALCHEMY"
         subheader="Decentralized Autonomous Organizations On Runes Protocol"
-        imgURL=""
         activeState={1}
       >
         Decentralized Autonomous Organizations (DAO) are the cornerstone of
