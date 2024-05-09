@@ -74,7 +74,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 46px;
+    gap: 119px;
 }
 
 .home-two-works-content {
@@ -83,4 +83,90 @@
     flex-wrap: wrap;
     column-gap: 37px;
     row-gap: 89px;
+}
+
+.home-two-business {
+    margin-top: 105px;
+    display: flex;
+    flex-direction: column;
+    gap: 117.53px;
+}
+
+.home-two-business-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 318.36px;
+    position: relative;
+}
+
+.home-two-business-content-title {
+    font-family: Alagard;
+    font-size: 54.22px;
+    font-weight: 500;
+    line-height: 55.7px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.home-two-business-content-content {
+    font-family: Alagard;
+    font-size: 27.11px;
+    font-weight: 500;
+    line-height: 27.85px;
+    text-align: center;
+    color: #767676;
+    max-width: 350px;
+    margin-top: 16.29px;
+}
+
+.home-two-business-fees-container {
+    display: flex;
+    height: 336.5px;
+    align-items: flex-start;
+}
+
+.home-two-business-fees {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.fees-line-up {
+    position: absolute;
+}
+
+.fees-line-down {
+    position: absolute;
+}
+
+.home-two-business-runes-container {
+    display: flex;
+    height: 336.5px;
+    align-items: flex-end;
+}
+
+.home-two-business-runes {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.business-line-between {
+    position: absolute;
+    top: 21%;
+    left: 43%;
+}
+
+.fees-line-up {
+    position: absolute;
+    top: -39.53px;
+    left: -42.92px;
+}
+
+.fees-line-down {
+    position: absolute;
+    bottom: -76.63px;
+    left: -92.62px;
 }

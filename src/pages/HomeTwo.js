@@ -144,6 +144,55 @@ export default function HomeTwo() {
             />
           </div>
         </div>
+        <div className="home-two-business">
+          <div className="home-two-services-title">BUSINESS MODEL</div>
+          <div className="home-two-business-content">
+            <div className="home-two-business-fees-container">
+              <div className="home-two-business-fees">
+                <div className="home-two-business-content-title">FEES</div>
+                <div className="home-two-business-content-content">
+                  Users pay a fee to create their DAO, and we charge and
+                  additional fee per transaction on Alchemy.
+                </div>
+                <img
+                  className="fees-line-up"
+                  src="/assets/images/line-up.png"
+                  alt="line-up"
+                />
+                <img
+                  className="fees-line-down"
+                  src="/assets/images/line-down.png"
+                  alt="line-down"
+                />
+              </div>
+            </div>
+
+            <img
+              className="business-line-between"
+              src="/assets/images/line-between.png"
+              alt="line-between"
+            />
+            <div className="home-two-business-runes-container">
+              <div className="home-two-business-runes">
+                <div className="home-two-business-content-title">RUNES</div>
+                <div className="home-two-business-content-content">
+                  Alchemy Runes are distributed as rewards and offer primary
+                  governance. Increasing token value.
+                </div>
+                <img
+                  className="fees-line-up"
+                  src="/assets/images/line-up.png"
+                  alt="line-up"
+                />
+                <img
+                  className="fees-line-down"
+                  src="/assets/images/line-down.png"
+                  alt="line-down"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
