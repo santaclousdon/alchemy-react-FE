@@ -10,6 +10,7 @@
 
 .slick-list {
     overflow: visible !important;
+    overflow-x: clip !important;
 }
 
 
