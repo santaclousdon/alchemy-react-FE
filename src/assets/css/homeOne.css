@@ -1,0 +1,19 @@
+.home-one {
+    width: 100%;
+    height: auto;
+    background: #191D16;
+    padding-top: 69px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-one-content {
+    width: 100%;
+    margin-top: 42px;
+    max-width: 1348px;
+    padding: 0 44px 114px 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 116px;
+}

@@ -1,0 +1,38 @@
+.toolBox-container {
+    padding: 46px 40px;
+    border: 1px solid #5E5E5E;
+    background: #161813;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.toolBox-header {
+    display: flex;
+    flex-direction: column;
+    font-family: Alagard;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36.98px;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 7px #000000;
+}
+
+/* .toolBox-header span {
+    text-align: center;
+} */
+
+.toolBox-content {
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    font-family: Alagard;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24.66px;
+    text-align: center;
+    color: #767676;
+}
+
+.toolBox-content span {
+    text-align: center;
+}

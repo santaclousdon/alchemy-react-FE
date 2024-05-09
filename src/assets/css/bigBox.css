@@ -1,0 +1,43 @@
+.bigBox-container {
+    width: 100%;
+    padding: 55px 57px;
+    border: solid 3px #5E5E5E;
+    border-radius: 29px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background: #161813;
+}
+
+.bigBox-container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 17px;
+    max-width: 826px;
+}
+
+.bigBox-header{
+    font-family: Alagard;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 49.31px;
+    text-align: left;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 7px #000000;
+}
+
+.bigBox-content {
+    font-family: Alagard;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28.77px;
+    text-align: left;
+    color: #767676;
+}
+
+.bigBox-image {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+}

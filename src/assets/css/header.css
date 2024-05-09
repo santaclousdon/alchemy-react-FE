@@ -1,0 +1,109 @@
+.header-container {
+    max-width: 1348px;
+    background-color: #5FA35B;
+    position: relative;
+    border-top-left-radius: 149px;
+    width: 100%;
+    padding: 0 61px 125px 61px;
+}
+
+.navbar-container {
+    position: absolute;
+    top: -48px;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1348px;
+    padding-right: 62px;
+}
+
+.logo {
+    padding: 29px;
+    border: solid 2px #191D16;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5FA35B;
+}
+
+.navbar-main {
+    display: flex;
+    gap: 52px;
+}
+
+.navbar-item {
+    font-family: "Alagard";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32.88px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.active {
+    color: #191D16;
+}
+
+.noActive {
+    color: #51824E;
+}
+
+.connect-wallet {
+    padding: 16px 29px;
+    background: #191D16;
+    font-family: "Alagard";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30.82px;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.header-content {
+    margin-top: 202px;
+    display: flex;
+    flex-direction: column;
+    max-width: 754px;
+}
+
+.header-content-header {
+    font-family: "Alagard";
+    font-size: 160px;
+    font-weight: 500;
+    line-height: 164.38px;
+    text-align: left;
+    color: #191D16;
+
+}
+
+.header-content-subheader {
+    margin-top: -3px;
+    font-family: "Alagard";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+    color: #191D16;
+}
+
+.header-content-content {
+    margin-top: 12px;
+    font-family: Alagard;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 31px;
+    text-align: left;
+    color: #E8FBFC;
+}
+
+.haader-image {
+    position: absolute;
+}

@@ -1,0 +1,75 @@
+.home-two {
+    width: 100%;
+    height: auto;
+    background: #191D16;
+    padding-top: 69px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-two-content {
+    width: 100%;
+    margin-top: 68px;
+    max-width: 1348px;
+    padding: 0 42px 108px 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-two-overview {
+    max-width: 776px;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.home-two-overview-header {
+    font-family: Alagard;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 49.31px;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 7px #000000;
+}
+
+.home-two-overview-content {
+    font-family: Alagard;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28.77px;
+    text-align: center;
+    color: #767676;
+}
+
+.home-two-services {
+    margin-top: 91px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 46px;
+}
+
+.home-two-services-title {
+    text-align: center;
+    font-family: Alagard;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 49.31px;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 7px #000000;
+}
+
+.home-two-services-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: -18.5px; */
+}
+
+.home-two-services-item {
+    padding-right: 37px;
+    padding-bottom: 30px;
+    width: 33.33%;
+}
