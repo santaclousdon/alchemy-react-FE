@@ -65,11 +65,22 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    /* margin-right: -18.5px; */
+    column-gap: 37px;
+    row-gap: 30px;
 }
 
-.home-two-services-item {
-    padding-right: 37px;
-    padding-bottom: 30px;
-    width: 33.33%;
+.home-two-works {
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 46px;
+}
+
+.home-two-works-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 37px;
+    row-gap: 89px;
 }

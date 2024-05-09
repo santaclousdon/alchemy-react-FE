@@ -20,7 +20,7 @@ export default function Header({
         <div className="header-content-subheader">{subheader}</div>
         <div className="header-content-content">{children}</div>
       </div>
-      <img className="header-image" src={`${imgURL}`} />
+      {/* <img className="header-image" src={`${imgURL}`} /> */}
     </header>
   );
 }

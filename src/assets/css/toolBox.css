@@ -1,9 +1,9 @@
 .toolBox-container {
-    padding: 46px 40px;
     border: 1px solid #5E5E5E;
     background: #161813;
     border-radius: 12px;
-    width: 100%;
+    width: 31.3%;
+    position: relative;
 }
 
 .toolBox-header {
@@ -35,4 +35,32 @@
 
 .toolBox-content span {
     text-align: center;
+}
+
+.toolBox-badge {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Alagard;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 65.75px;
+    text-align: center;
+    border: 1px solid #5E5E5E;
+    background: #161813;
+    color: #FFFFFF;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.notBadge {
+    padding: 46px 40px;
+}
+
+.badge {
+    padding: 75px 33px 36px 33px;
 }
