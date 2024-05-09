@@ -174,7 +174,7 @@
 .home-two-market {
     margin-top: 266px;
     display: flex;
-    padding: 0 55px;
+    padding: 0 45px;
     justify-content: space-between;
     gap: 61px;
 }
@@ -191,5 +191,64 @@
     font-weight: 500;
     line-height: 33.9px;
     text-align: left;
+    color: #767676;
+}
+
+.home-two-raise {
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 90px; */
+}
+
+.home-two-raise-subtitle {
+    margin-top: 18px;
+    font-family: Alagard;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36.98px;
+    color: #FFFFFF;
+}
+
+.home-two-raise-express {
+    margin-top: 81px;
+    display: flex;
+    justify-content: space-between;
+    gap: 197px;
+}
+
+.home-two-raise-express-item {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-two-raise-express-title {
+    font-family: Alagard;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 49.31px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.home-two-raise-express-content {
+    font-family: Alagard;
+    font-size: 92px;
+    font-weight: 500;
+    line-height: 94.52px;
+    color: #FFFFFF;
+}
+
+.home-two-raise-content {
+    margin-top: 63px;
+    display: flex;
+    flex-direction: column;
+    font-family: Alagard;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 31.85px;
+    text-align: center;
     color: #767676;
 }

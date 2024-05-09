@@ -210,6 +210,31 @@ export default function HomeTwo() {
             <img src="/assets/images/graph.png" alt="graph" />
           </div>
         </div>
+        <div className="home-two-raise">
+          <div className="home-two-services-title">PRE-SEED RAISE</div>
+          <div className="home-two-raise-subtitle">
+            We are currently raising for our Pre-Seed Round.
+          </div>
+          <div className="home-two-raise-express">
+            <div className="home-two-raise-express-item">
+              <div className="home-two-raise-express-title">Rounded Size</div>
+              <div className="home-two-raise-express-content">$200k</div>
+            </div>
+            <div className="home-two-raise-express-item">
+              <div className="home-two-raise-express-title">Available</div>
+              <div className="home-two-raise-express-content">10%</div>
+            </div>
+            <div className="home-two-raise-express-item">
+              <div className="home-two-raise-express-title">Valuation</div>
+              <div className="home-two-raise-express-content">$2m</div>
+            </div>
+          </div>
+          <div className="home-two-raise-content">
+            <span>Agreement via SAFT</span>
+            <span>10% Released at TGE</span>
+            <span>12 Month Vest with 3 month Cliff</span>
+          </div>
+        </div>
       </div>
     </div>
   );
