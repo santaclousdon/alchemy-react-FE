@@ -64,3 +64,13 @@
 .badge {
     padding: 75px 33px 36px 33px;
 }
+
+@media (max-width: 1210px) {
+    .toolBox-container {
+        border: 1px solid #5E5E5E;
+        background: #161813;
+        border-radius: 12px;
+        width: 45%;
+        position: relative;
+    }
+}

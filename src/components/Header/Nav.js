@@ -44,10 +44,61 @@ export default function Navbar({ activeState }) {
       </div>
       <div className="navbar-buttons">
         <button className="connect-wallet">connect wallet</button>
-        <div className="nav-button">
-          <img src="/assets/images/bars.png" alt="Bar" />
+        <div
+          className="nav-button"
+          onClick={() => {
+            setModalState(true);
+            // document.body.className.
+            // document.getElementsByTagName("body").style("overflow", "hidden");
+          }}
+        >
+          <img src="/assets/images/Bars.png" alt="Bar" />
         </div>
       </div>
+      {modalState ? (
+        <>
+          <div
+            className="modal-window"
+            onClick={() => {
+              setModalState(false);
+            }}
+          ></div>
+          <div className="modal-navbar">
+            <NavLink
+              to="/home1"
+              className={
+                "navbar-item " + (activeState === 0 ? "active" : "noActive")
+              }
+            >
+              Home1
+            </NavLink>
+            <NavLink
+              to="/home2"
+              className={
+                "navbar-item " + (activeState === 1 ? "active" : "noActive")
+              }
+            >
+              Home2
+            </NavLink>
+            <NavLink
+              to="/staking"
+              className={
+                "navbar-item " + (activeState === 2 ? "active" : "noActive")
+              }
+            >
+              Staking
+            </NavLink>
+            <NavLink
+              to="/dao"
+              className={
+                "navbar-item " + (activeState === 3 ? "active" : "noActive")
+              }
+            >
+              Dao
+            </NavLink>
+          </div>
+        </>
+      ) : null}
     </div>
   );
 }

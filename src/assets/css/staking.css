@@ -96,6 +96,7 @@
     line-height: 25.68px;
     text-align: left;
     color: #ffffff;
+    align-items: center;
 }
 
 .staking-content-content {
@@ -106,4 +107,11 @@
     flex-wrap: wrap;
     column-gap: 51px;
     row-gap: 38px;
+    justify-content: center;
+}
+
+@media (max-width: 1210px) {
+    .staking-content-search {
+        width: 200px;
+    }
 }

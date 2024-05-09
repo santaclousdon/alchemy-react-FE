@@ -15,6 +15,7 @@
     justify-content: space-between;
     gap: 17px;
     max-width: 73%;
+    z-index: 5;
 }
 
 .bigBox-header{
@@ -40,4 +41,21 @@
     position: absolute;
     top: -7px;
     right: -7px;
+}
+
+@media (max-width: 1210px) {
+    .bigBox-image{
+        display: flex;
+        justify-content: center;
+        top: 20%;
+        right: -50px;
+    }
+
+    .bigBox-container-content {
+        max-width: 60%;
+    }
+
+    .bigBox-image img{
+        width: 80%;
+    }
 }

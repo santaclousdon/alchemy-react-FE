@@ -287,3 +287,31 @@
     color: #767676;
     max-width: 836px;
 }
+
+@media (max-width: 1210px) {
+    .home-two-business-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-two-business-fees-container {
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    .home-two-business-runes-container {
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    .business-line-between {
+        top: 43%;
+        left: 22%;
+    }
+
+    .home-two-market {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

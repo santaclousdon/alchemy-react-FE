@@ -127,6 +127,7 @@
 
 .header-image {
     position: absolute;
+    object-fit: contain;
 }
 
 .staking-one {
@@ -153,6 +154,24 @@
     overflow-x: clip !important;
 }
 
+.slick-prev {
+    left: -30px !important;
+    top: 400px !important;
+}
+
+.slick-next {
+    right: -30px !important;
+    top: 400px !important;
+}
+
+.slick-dots {
+    bottom: -92px !important;
+}
+
+.slick-track {
+    display: flex !important;
+    gap: 20px;
+}
 
 .full-width-carousel {
     width: 100%;
@@ -174,16 +193,21 @@
     height: auto;
 }
 
-@media (max-width: 1210px) {
+.modal-navbar {
+    display: none;
+}
 
+@media (max-width: 1210px) {
     .navbar-nav {
         display: flex;
         align-items: center;
         padding-right: 20px;
+        position: relative;
     }
      
     .navbar-buttons {
         display: flex;
+        z-index: 10;
     }
 
     .nav-button {
@@ -196,5 +220,34 @@
 
     .navbar-main {
         display: none;
+    }
+
+    .modal-window {
+        opacity: 1;
+        position: absolute;
+        top: 0;
+        background: hsla(0, 3%, 8%, .7);
+        height: 100vh;
+        width: 95vw;
+        z-index: 2;
+    }
+
+    .modal-navbar {
+        z-index: 5;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 380px;
+        background-color: #dee3de;
+        display:flex;
+        flex-direction: column;
+        height: auto;
+        padding: 190px 50px;
+        gap: 30px;
+    }
+
+    .header-image {
+        width: 60%;
+        top: 35%;
     }
 }
