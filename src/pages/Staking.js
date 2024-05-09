@@ -99,7 +99,7 @@ export default function Staking() {
             <input className="staking-content-search" placeholder="Search" />
           </div>
           <div className="staking-content-item">
-            <img src="/assets/images/bars.png" alt="bars" />
+            <img src="/assets/images/Bars.png" alt="bars" />
             <span>Sort by</span>
           </div>
           <div className="staking-content-item">
