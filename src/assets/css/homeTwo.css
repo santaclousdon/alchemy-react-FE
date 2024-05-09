@@ -315,3 +315,13 @@
         align-items: center;
     }
 }
+
+@media (max-width: 900px) {
+    .home-two-raise-express-title {
+        font-size: 40px;
+    }
+
+    .home-two-raise-express-content {
+        font-size: 70px;
+    }
+}

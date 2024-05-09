@@ -86,7 +86,6 @@
     line-height: 164.38px;
     text-align: left;
     color: #191D16;
-
 }
 
 .header-content-subheader {
@@ -249,5 +248,20 @@
     .header-image {
         width: 60%;
         top: 35%;
+    }
+}
+
+@media (max-width: 900px) {
+    .header-content-header {
+        font-family: "Alagard";
+        font-size: 100px;
+        font-weight: 500;
+        line-height: 164.38px;
+        text-align: left;
+        color: #191D16;
+    }
+
+    .header-image {
+        display: none !important;
     }
 }

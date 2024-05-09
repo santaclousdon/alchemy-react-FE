@@ -59,3 +59,18 @@
         width: 80%;
     }
 }
+
+@media (max-width: 900px) {
+    .bigBox-container-content {
+        max-width: 100%;
+    }
+
+    .bigBox-image {
+        top: -80px;
+        left: -50px;
+    }
+
+    .bigBox-image img{
+        width: 30%;
+    }
+}

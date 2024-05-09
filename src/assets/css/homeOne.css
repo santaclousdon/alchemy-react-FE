@@ -27,9 +27,3 @@
     gap: 116px;
 }
 
-@media (max-width: 1210px) {
-    .bigBox-image img{
-        object-fit: cover;
-        width: 100%;
-    }
-}

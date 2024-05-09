@@ -74,3 +74,13 @@
         position: relative;
     }
 }
+
+@media (max-width: 900px) {
+    .toolBox-container {
+        border: 1px solid #5E5E5E;
+        background: #161813;
+        border-radius: 12px;
+        width: 100%;
+        position: relative;
+    }
+}

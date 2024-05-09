@@ -115,3 +115,13 @@
         width: 200px;
     }
 }
+
+@media (max-width: 900px) {
+    .staking-content-header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .staking-content-search-container {
+        /* width: 100%; */
+    }
+}
