@@ -30,3 +30,60 @@
     width: 100%;
     height: auto;
 }
+
+.staking-content {
+    width: 100%;
+    margin-top: 38px;
+    max-width: 1348px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.staking-content-header {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 57px;
+    align-items: center;
+}
+
+.staking-content-search-container {
+    position: relative;
+}
+
+.staking-content-search-container img {
+    position: absolute;
+    left: 23.51px;
+    top: 15.41px;
+}
+
+.staking-content-search {
+    width: 360px;
+    height: 59.67px;
+    padding: 17.33px 23.51px 17.33px 81.56px ;
+    gap: 29.19px;
+    border-radius: 14px;
+    opacity: 0px;
+    background: #414A3A;
+    color: #161813;
+    font-family: Alagard;
+    font-size: 24.63px;
+    font-weight: 500;
+    line-height: 25.31px;
+    text-align: left;
+    border: none;
+}
+
+.staking-content-item {
+    height: 26px;
+    display: flex;
+    gap: 10px;
+    font-family: Alagard;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25.68px;
+    text-align: left;
+    color: #ffffff;
+}

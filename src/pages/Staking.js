@@ -91,6 +91,30 @@ export default function Staking() {
           </div>
         </Slider>
       </div>
+      <div className="staking-content">
+        <div className="staking-content-header">
+          <div className="staking-content-search-container">
+            <img src="/assets/images/search.png" alt="search" />
+            <input className="staking-content-search" placeholder="Search" />
+          </div>
+          <div className="staking-content-item">
+            <img src="/assets/images/bars.png" alt="bars" />
+            <span>Sort by</span>
+          </div>
+          <div className="staking-content-item">
+            <img src="/assets/images/arrow-down.png" alt="arrow-down" />
+            <span>Amount held</span>
+          </div>
+          <div className="staking-content-item">
+            <img src="/assets/images/arrow-up.png" alt="arrow-up" />
+            <span>Reward Rate</span>
+          </div>
+          <div className="staking-content-item">
+            <img src="/assets/images/arrow-up.png" alt="arrow-up" />
+            <span>TVL</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
