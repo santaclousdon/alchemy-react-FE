@@ -170,3 +170,26 @@
     bottom: -76.63px;
     left: -92.62px;
 }
+
+.home-two-market {
+    margin-top: 266px;
+    display: flex;
+    padding: 0 55px;
+    justify-content: space-between;
+    gap: 61px;
+}
+
+.home-two-market-script {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.home-two-market-content {
+    font-family: Alagard;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 33.9px;
+    text-align: left;
+    color: #767676;
+}

@@ -193,6 +193,23 @@ export default function HomeTwo() {
             </div>
           </div>
         </div>
+        <div className="home-two-market">
+          <div className="home-two-market-script">
+            <div className="home-two-services-title">MARKET POTENTIAL</div>
+            <div className="home-two-market-content">
+              The current market size for Ordinals has peaked over $1 Billion.
+              It is expected to exceed well over $4.5 Billion by 2025.
+            </div>
+            <div className="home-two-market-content">
+              With decentralized finance expanding on Bitcoin, this also opens
+              the doors for an added $1.28 Trillion in potential market size for
+              DAOs on Bitcoin and Runes Protocol.
+            </div>
+          </div>
+          <div className="home-two-market-graph">
+            <img src="/assets/images/graph.png" alt="graph" />
+          </div>
+        </div>
       </div>
     </div>
   );
