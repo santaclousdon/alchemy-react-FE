@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 17px;
-    max-width: 826px;
+    max-width: 73%;
 }
 
 .bigBox-header{

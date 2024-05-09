@@ -8,6 +8,15 @@
     flex-direction: column;
 }
 
+.home-two {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1440px;
+    padding: 0 46px;
+}
+
 .home-two-content {
     width: 100%;
     margin-top: 68px;
@@ -64,6 +73,7 @@
 .home-two-services-content {
     width: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     column-gap: 37px;
     row-gap: 30px;
@@ -83,6 +93,7 @@
     flex-wrap: wrap;
     column-gap: 37px;
     row-gap: 89px;
+    justify-content: center;
 }
 
 .home-two-business {
@@ -194,10 +205,16 @@
     color: #767676;
 }
 
+.home-two-market-graph {
+    display: flex;
+    align-items: center;
+}
+
 .home-two-raise {
     margin-top: 115px;
     display: flex;
     flex-direction: column;
+    width: 100%;
     /* padding: 0 90px; */
 }
 
@@ -214,7 +231,8 @@
     margin-top: 81px;
     display: flex;
     justify-content: space-between;
-    gap: 197px;
+    /* gap: 197px; */
+    width: 100%;
 }
 
 .home-two-raise-express-item {

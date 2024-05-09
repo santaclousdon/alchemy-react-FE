@@ -34,6 +34,7 @@
 }
 
 .navbar-main {
+    padding: 0 30px;
     display: flex;
     gap: 52px;
 }
@@ -53,6 +54,10 @@
 
 .noActive {
     color: #51824E;
+}
+
+.nav-button {
+    display: none;
 }
 
 .connect-wallet {
@@ -125,16 +130,71 @@
 }
 
 .staking-one {
-    right: 0;
+    right: -61px;
     top: -9px;
 }
 
 .staking-two {
-    right: 39px;
+    right: -22px;
     top: 69px;
 }
 
 .staking-three {
-    right: 26px;
+    right: -35px;
     top: 61px;
+}
+
+.staking-carousel {
+    position: relative;
+}
+
+.slick-list {
+    overflow: visible !important;
+    overflow-x: clip !important;
+}
+
+
+.full-width-carousel {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+ 
+.full-width-slide {
+    width: 100vw;
+    display: flex !important;
+    justify-content: sap;
+    align-items: flex-start;
+    position: relative;
+}
+ 
+ 
+.slide-image {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1210px) {
+
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+    }
+     
+    .navbar-buttons {
+        display: flex;
+    }
+
+    .nav-button {
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        background-color: #191D16;
+        padding: 0 15px;
+    }
+
+    .navbar-main {
+        display: none;
+    }
 }

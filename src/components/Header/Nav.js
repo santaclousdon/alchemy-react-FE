@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 export default function Navbar({ activeState }) {
+  const [modalState, setModalState] = useState(false);
   return (
     <div className="navbar-nav">
       <NavLink to="/home1" className="logo">
@@ -40,7 +42,12 @@ export default function Navbar({ activeState }) {
           Dao
         </NavLink>
       </div>
-      <button className="connect-wallet">connect wallet</button>
+      <div className="navbar-buttons">
+        <button className="connect-wallet">connect wallet</button>
+        <div className="nav-button">
+          <img src="/assets/images/bars.png" alt="Bar" />
+        </div>
+      </div>
     </div>
   );
 }

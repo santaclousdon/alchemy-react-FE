@@ -8,7 +8,16 @@
     flex-direction: column;
 }
 
-.slick-list {
+.staking {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1440px;
+    padding: 0 46px;
+}
+
+/* .slick-list {
     overflow: visible !important;
     overflow-x: clip !important;
 }
@@ -30,7 +39,7 @@
 .slide-image {
     width: 100%;
     height: auto;
-}
+} */
 
 .staking-content {
     width: 100%;

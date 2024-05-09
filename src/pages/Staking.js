@@ -9,51 +9,50 @@ import "slick-carousel/slick/slick-theme.css";
 import StakingBox from "../components/StakingBox/StakingBox";
 
 export default function Staking() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+  // const settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
 
-    appendDots: (dots) => (
-      <div>
-        <ul
-          style={{
-            margin: "0px",
-            padding: "0px",
-          }}
-        >
-          {" "}
-          {dots}{" "}
-        </ul>
-      </div>
-    ),
+  //   appendDots: (dots) => (
+  //     <div>
+  //       <ul
+  //         style={{
+  //           margin: "0px",
+  //           padding: "0px",
+  //         }}
+  //       >
+  //         {" "}
+  //         {dots}{" "}
+  //       </ul>
+  //     </div>
+  //   ),
 
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 1,
-        },
-      },
-    ],
-  };
+  //   responsive: [
+  //     {
+  //       breakpoint: 1024,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //         infinite: true,
+  //         dots: true,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 600,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //         initialSlide: 1,
+  //       },
+  //     },
+  //   ],
+  // };
   return (
     <div className="staking-container">
-      <div className="full-width-carousel">
-        <Slider {...settings}>
+      {/* <Slider {...settings}>
           <div className="full-width-slide">
             <Header
               header="STAKING"
@@ -63,7 +62,7 @@ export default function Staking() {
             >
               Alchemy will soon offer a set of magical tools for you to build
               and deploy your very own decentralized autonomous organizations
-              (DAO) Runes Protocol…111
+              (DAO) Runes Protocol…
             </Header>
           </div>
           <div className="full-width-slide">
@@ -75,7 +74,7 @@ export default function Staking() {
             >
               Alchemy will soon offer a set of magical tools for you to build
               and deploy your very own decentralized autonomous organizations
-              (DAO) Runes Protocol…111
+              (DAO) Runes Protocol…
             </Header>
           </div>
           <div className="full-width-slide">
@@ -87,11 +86,22 @@ export default function Staking() {
             >
               Alchemy will soon offer a set of magical tools for you to build
               and deploy your very own decentralized autonomous organizations
-              (DAO) Runes Protocol…111
+              (DAO) Runes Protocol…
             </Header>
           </div>
-        </Slider>
-      </div>
+        </Slider> */}
+      <Header
+        header="STAKING"
+        subheader="Start your staking now"
+        imgName1="staking-one"
+        imgName2="staking-two"
+        imgName3="staking-three"
+        activeState={2}
+      >
+        Alchemy will soon offer a set of magical tools for you to build and
+        deploy your very own decentralized autonomous organizations (DAO) Runes
+        Protocol…
+      </Header>
       <div className="staking-content">
         <div className="staking-content-header">
           <div className="staking-content-search-container">
