@@ -6,6 +6,7 @@ import "../assets/css/staking.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import StakingBox from "../components/StakingBox/StakingBox";
 
 export default function Staking() {
   const settings = {
@@ -113,6 +114,14 @@ export default function Staking() {
             <img src="/assets/images/arrow-up.png" alt="arrow-up" />
             <span>TVL</span>
           </div>
+        </div>
+        <div className="staking-content-content">
+          <StakingBox held="22" rewardRate="5%" tvl="$12.44B" eraned="24" />
+          <StakingBox held="22" rewardRate="5%" tvl="$12.44B" eraned="24" />
+          <StakingBox held="22" rewardRate="5%" tvl="$12.44B" eraned="24" />
+          <StakingBox held="22" rewardRate="5%" tvl="$12.44B" eraned="24" />
+          <StakingBox held="22" rewardRate="5%" tvl="$12.44B" eraned="24" />
+          <StakingBox held="22" rewardRate="5%" tvl="$12.44B" eraned="24" />
         </div>
       </div>
     </div>
