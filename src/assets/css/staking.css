@@ -88,9 +88,7 @@
     .staking-content-search {
         width: 200px;
     }
-}
 
-@media (max-width: 900px) {
     .staking-content-header {
         display: flex;
         flex-wrap: wrap;
