@@ -1,7 +1,5 @@
 import Header from "../components/Header/Header";
 import "../assets/css/staking.css";
-
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import StakingBox from "../components/StakingBox/StakingBox";
