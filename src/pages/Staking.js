@@ -1,7 +1,5 @@
 import Header from "../components/Header/Header";
 import "../assets/css/staking.css";
-// import { Carousel } from "react-responsive-carousel";
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
