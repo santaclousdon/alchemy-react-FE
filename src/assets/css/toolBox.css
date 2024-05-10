@@ -84,3 +84,43 @@
         position: relative;
     }
 }
+
+@media (max-width: 620px) {
+    .toolBox-header {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .toolBox-content {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .notBadge {
+        padding: 22px 20px;
+    }
+
+    .badge {
+        padding: 35px 20px;
+    }
+
+    .toolBox-badge {
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Alagard;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 32px;
+        text-align: center;
+        border: 1px solid #5E5E5E;
+        background: #161813;
+        color: #FFFFFF;
+        position: absolute;
+        top: -25px;
+        left: calc(50% - 25px);
+    }
+}

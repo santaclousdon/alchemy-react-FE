@@ -365,4 +365,55 @@
         width: 100%;
         left: 0px;
     }
+
+    .home-two-services-title {
+        font-size: 35px;
+        line-height: 38px;
+    }
+
+    .home-two-overview-content {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .home-two-works-content {
+        row-gap: 30px;
+    }
+
+    .home-two-raise-express {
+        margin-top: 30px;
+    }
+
+    .home-two-raise-subtitle {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .home-two-raise-express-title {
+        font-size: 35px;
+        line-height: 38px;
+    }
+
+    .home-two-raise-express-content {
+        font-size: 50px;
+        line-height: 52px;
+    }
+
+    .home-two-raise-content {
+        margin-top: 30px;
+    }
+
+    .home-two-raise-content {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .home-two-conclusion {
+        margin-top: 30px;
+    }
+
+    .home-two-sevices-content {
+        font-size: 20px;
+        line-height: 22px;
+    }
 }

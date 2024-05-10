@@ -270,6 +270,17 @@
     .header-container {
         padding: 0 20px 50px 20px;
     }
+
+    .homeHeaderSub {
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .header-content-content {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
     .connect-wallet {
         font-size: 15px;
         line-height: 18px;
@@ -307,12 +318,20 @@
         justify-content: center;
         align-items: center;
         background: #5FA35B;
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
     }
 
     .logo img {
         width: 100%;
+    }
+
+    .navbar-container {
+        top: -35px;
+    }
+
+    .navbar-nav {
+        gap: 15px;
     }
 
     .nav-button {
@@ -332,9 +351,7 @@
     }
 
     .header-content-header {
-        font-size: 50px;
-        line-height: 70px;
+        font-size: 40px;
+        line-height: 45px;
     }
-
-
 }

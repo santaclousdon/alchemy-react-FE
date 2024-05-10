@@ -19,7 +19,7 @@ export default function HomeTwo() {
         </Header>
         <div className="home-two-content">
           <div className="home-two-overview">
-            <div className="home-two-overview-header">PROJECT OVERVIEW</div>
+            <div className="home-two-services-title">PROJECT OVERVIEW</div>
             <div className="home-two-overview-content">
               Alchemy is a DAO Creation/Management Platform built on Runes
               Protocol. It delivers a unique set of tooling for web3 communities

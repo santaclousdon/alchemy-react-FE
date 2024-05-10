@@ -120,8 +120,18 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 620px) {
     .stakingBox-container {
         padding: 34.95px 20px 54.11px 15px;
+    }
+
+    .stakingBox-content-item {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .stakingBox-button {
+        font-size: 22px;
+        line-height: 24px;
     }
 }
