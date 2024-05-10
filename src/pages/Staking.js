@@ -28,7 +28,6 @@ export default function Staking() {
           <div className="staking-content-header">
             <div className="staking-content-search-container">
               <img src="/assets/images/search.png" alt="search" />
-              <input className="staking-content-search" placeholder="Search" />
             </div>
             <div className="staking-content-item">
               <img src="/assets/images/Bars.png" alt="bars" />
