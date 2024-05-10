@@ -122,12 +122,16 @@
 
 @media (max-width: 620px) {
     .stakingBox-container {
-        padding: 34.95px 20px 54.11px 15px;
+        padding: 34.95px 20px 20px 15px;
+    }
+
+    .stakingBox-content {
+        margin-top: 15px;
     }
 
     .stakingBox-content-item {
-        font-size: 28px;
-        line-height: 30px;
+        font-size: 23px;
+        line-height: 25px;
     }
 
     .stakingBox-button {
