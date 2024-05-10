@@ -121,7 +121,22 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .staking-content-search-container {
-        /* width: 100%; */
+}
+
+@media (max-width: 630px) {
+    .staking {
+        padding: 0 15px;
+    }
+
+    .staking-content {
+        padding: 0 15px 114px 15px;
+    }
+
+    .staking-content-header {
+        padding: 0;
+    }
+
+    .staking-content-content {
+        padding: 0;
     }
 }

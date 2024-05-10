@@ -119,3 +119,9 @@
         width: 90%;
     }
 }
+
+@media (max-width: 900px) {
+    .stakingBox-container {
+        padding: 34.95px 20px 54.11px 15px;
+    }
+}

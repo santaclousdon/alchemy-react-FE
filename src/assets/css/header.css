@@ -240,7 +240,7 @@
         background-color: #dee3de;
         display:flex;
         flex-direction: column;
-        height: auto;
+        height: 100vh;
         padding: 190px 50px;
         gap: 30px;
     }
@@ -264,4 +264,77 @@
     .header-image {
         display: none !important;
     }
+}
+
+@media (max-width: 660px) {
+    .header-container {
+        padding: 0 20px 50px 20px;
+    }
+    .connect-wallet {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 5px 15px;
+    }
+
+    .otherHeaderSub {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .modal-navbar {
+        width: 250px;
+        padding: 120px 50px;
+    }
+
+    .header-content-header {
+        font-family: "Alagard";
+        font-size: 70px;
+        font-weight: 500;
+        line-height: 164.38px;
+        text-align: left;
+        color: #191D16;
+    }
+
+    .header-image {
+        display: none !important;
+    }
+
+    .logo {
+        padding: 15px;
+        border: solid 2px #191D16;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #5FA35B;
+        width: 150px;
+        height: 150px;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .nav-button {
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        background-color: #191D16;
+        padding: 0 7px;
+    }
+
+    .modal-window {
+        width: 93vw;
+    }
+
+    .header-content {
+        margin-top: 100px;
+    }
+
+    .header-content-header {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+
 }

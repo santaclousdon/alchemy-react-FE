@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 export default function Navbar({ activeState }) {
@@ -47,9 +47,7 @@ export default function Navbar({ activeState }) {
         <div
           className="nav-button"
           onClick={() => {
-            setModalState(true);
-            // document.body.className.
-            // document.getElementsByTagName("body").style("overflow", "hidden");
+            setModalState(!modalState);
           }}
         >
           <img src="/assets/images/Bars.png" alt="Bar" />

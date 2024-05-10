@@ -147,10 +147,6 @@
     position: absolute;
 }
 
-.fees-line-down {
-    position: absolute;
-}
-
 .home-two-business-runes-container {
     display: flex;
     height: 336.5px;
@@ -203,6 +199,7 @@
     line-height: 33.9px;
     text-align: left;
     color: #767676;
+    text-wrap: wrap;
 }
 
 .home-two-market-graph {
@@ -323,5 +320,49 @@
 
     .home-two-raise-express-content {
         font-size: 70px;
+    }
+}
+
+@media (max-width: 660px) {
+
+        .home-two {
+            padding: 0 15px;
+        }
+    
+        .home-two-content {
+            padding: 0 15px 114px 15px;
+        }
+
+    .home-two-raise-express {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-two-market {
+        padding: 0 10px;
+    }
+
+    .home-two-market-content {
+        font-size: 25px;
+        max-width: fit-content;
+    }
+
+    .home-two-market-graph {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-two-market-graph img{
+        width: 80%;
+    }
+
+    .fees-line-down {
+        width: 100%;
+        left: -10px;
+    }
+
+    .fees-line-up {
+        width: 100%;
+        left: 0px;
     }
 }

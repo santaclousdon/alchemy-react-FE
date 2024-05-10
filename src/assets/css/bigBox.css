@@ -74,3 +74,22 @@
         width: 30%;
     }
 }
+
+@media (max-width: 630px) {
+    .bigBox-container {
+        padding: 30px 35px;
+    }
+    .bigBox-header {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .bigBox-content {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .bigBox-image {
+        display: none;
+    }
+}

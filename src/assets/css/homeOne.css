@@ -27,3 +27,14 @@
     gap: 116px;
 }
 
+@media (max-width: 630px) {
+    .home-one {
+        padding: 0 15px;
+    }
+
+    .home-one-content {
+        padding: 0 15px 114px 15px;
+        gap: 30px;
+    }
+}
+
