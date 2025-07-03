@@ -43,7 +43,7 @@ export default function Navbar({ activeState }) {
         </NavLink>
       </div>
       <div className="navbar-buttons">
-        <button className="connect-wallet">connect wallet</button>
+        <button className="connect-wallet">connect walletttt</button>
         <div
           className="nav-button"
           onClick={() => {
